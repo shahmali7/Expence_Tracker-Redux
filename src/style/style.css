@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  background-image: url("../images.png");
+  background-position-x: center;
+}
+
+body .main {
+  padding: 25px;
+  border-radius: 7px;
+  background: #12a79b;
+}
+
+body .main .balance {
+  text-align: center;
+  border-bottom: 1px solid blue;
+}
+
+body .main .balance h1 {
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+body .main .transactions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+
+body .main .transactions .income {
+  border: 2px solid green;
+  width: 130px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+}
+
+body .main .transactions .income p {
+  margin-left: 5px;
+  font-weight: 700;
+  color: green;
+}
+
+body .main .transactions .expence {
+  border: 2px solid red;
+  width: 130px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+body .main .transactions p {
+  margin-left: 5px;
+  font-weight: 700;
+  color: red;
+}
+
+body .main .TransactionList h3 {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+body .main .List {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+body .main .List button {
+  width: 30px;
+  height: 22px;
+  border: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+body .main .List button:hover {
+  background-color: black;
+  color: white;
+}
+
+body .main .Add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .Add h3 {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+body .main .Add .Text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .main .Add .Text label {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+body .main .Add .Text input {
+  border: none;
+  padding-left: 3px;
+  height: 25px;
+  outline: none;
+}
+
+body .main .Add .Amount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .main .Add .Amount label {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+body .main .Add .Amount input {
+  border: none;
+  padding-left: 3px;
+  height: 25px;
+  outline: none;
+}
+
+body .main .Add button {
+  margin-top: 10px;
+  height: 25px;
+  width: 200px;
+  border: none;
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 3px;
+}
+
+body .main .Add button:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
